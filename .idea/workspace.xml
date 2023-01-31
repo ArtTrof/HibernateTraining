@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22393d42-9305-429e-905b-f21b113959a7" name="Changes" comment="msg">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson4(Update delete)/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson4(Update delete)/src/main/java/org/example/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson4(Update delete)/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson4(Update delete)/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/818910ed-2bdd-4c9c-8b2b-feec084c2488.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/818910ed-2bdd-4c9c-8b2b-feec084c2488.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/818910ed-2bdd-4c9c-8b2b-feec084c2488/storage_v2/_src_/database/hibernate_demo_db.bVH-1A/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/818910ed-2bdd-4c9c-8b2b-feec084c2488/storage_v2/_src_/database/hibernate_demo_db.bVH-1A/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" afterDir="false" />
@@ -46,15 +51,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/Programming/Projects/HibernateFirstApp/Lesson2(First hibernate app)",
+    "last_opened_file_path": "F:/Programming/Projects/HibernateFirstApp/Lesson4(Update delete)",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.37586206",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -65,6 +70,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Programming\Projects\HibernateFirstApp\Lesson4(Update delete)" />
+      <recent name="F:\Programming\Projects\HibernateFirstApp\Lesson3(Save person to db)" />
       <recent name="F:\Programming\Projects\HibernateFirstApp\Lesson2(First hibernate app)" />
     </key>
   </component>
@@ -96,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675176045910</updated>
-      <workItem from="1675176047190" duration="3311000" />
+      <workItem from="1675176047190" duration="4786000" />
     </task>
     <task id="LOCAL-00001" summary="msg">
       <created>1675178429757</created>
@@ -105,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675178429757</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="msg">
+      <created>1675180657549</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675180657549</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
