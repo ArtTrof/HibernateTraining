@@ -28,6 +28,7 @@ public class App {
 //set all name on test where age<30
 //             session.createQuery("update Person  set name='TEST' where age<30").executeUpdate();
 //delete person where age <30
+
             session.createQuery("delete Person  where age<30").executeUpdate();
 
             session.getTransaction().commit();

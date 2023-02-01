@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22393d42-9305-429e-905b-f21b113959a7" name="Changes" comment="msg">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/818910ed-2bdd-4c9c-8b2b-feec084c2488.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/818910ed-2bdd-4c9c-8b2b-feec084c2488.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/818910ed-2bdd-4c9c-8b2b-feec084c2488/storage_v2/_src_/database/hibernate_demo_db.bVH-1A/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/818910ed-2bdd-4c9c-8b2b-feec084c2488/storage_v2/_src_/database/hibernate_demo_db.bVH-1A/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2(First hibernate app)/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson2(First hibernate app)/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3(Save person to db)/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson3(Save person to db)/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4(Update delete)/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson4(Update delete)/src/main/java/org/example/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson5(HQL)/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson5(HQL)/src/main/java/org/example/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +51,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Programming/Projects/HibernateFirstApp/Lesson5(HQL)&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Programming/Projects/HibernateFirstApp/Lesson6(One to many)&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -76,6 +70,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Programming\Projects\HibernateFirstApp\Lesson6(One to many)" />
       <recent name="F:\Programming\Projects\HibernateFirstApp\Lesson5(HQL)" />
       <recent name="F:\Programming\Projects\HibernateFirstApp\Lesson4(Update delete)" />
       <recent name="F:\Programming\Projects\HibernateFirstApp\Lesson3(Save person to db)" />
@@ -111,7 +106,8 @@
       <option name="presentableId" value="Default" />
       <updated>1675176045910</updated>
       <workItem from="1675176047190" duration="5940000" />
-      <workItem from="1675188782636" duration="3144000" />
+      <workItem from="1675188782636" duration="8427000" />
+      <workItem from="1675246945962" duration="1268000" />
     </task>
     <task id="LOCAL-00001" summary="msg">
       <created>1675178429757</created>
@@ -134,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675181918556</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="msg">
+      <created>1675192532207</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675192532207</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
