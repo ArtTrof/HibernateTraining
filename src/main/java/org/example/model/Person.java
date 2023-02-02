@@ -1,9 +1,6 @@
 package org.example.model;
 
-import org.hibernate.annotations.Cascade;
-
 import javax.persistence.*;
-import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -20,13 +17,7 @@ public class Person {
     @Column(name = "age")
     private int age;
 
-    @OneToOne(mappedBy = "person")//without unique field
-    @Cascade(org.hibernate.annotations.CascadeType.SAVE_UPDATE)
-    private Passport passport;
-
-//    @OneToMany(mappedBy = "owner",cascade = CascadeType.PERSIST)//cascade to save item with creating person works with persist
-    @OneToMany(mappedBy = "owner")//cascade to save item with creating person works with save
-    @Cascade(org.hibernate.annotations.CascadeType.SAVE_UPDATE)
+    @OneToMany(mappedBy = "owner",fetch = FetchType.LAZY)
     private List<Item> items;
 
     public Person() {
@@ -68,23 +59,6 @@ public class Person {
 
     public void setItems(List<Item> items) {
         this.items = items;
-    }
-
-    public Passport getPassport() {
-        return passport;
-    }
-
-    public void setPassport(Passport passport) {
-        this.passport = passport;
-        passport.setPerson(this);
-    }
-
-    public void addItem(Item item){
-        if(this.items ==null);
-        this.items=new ArrayList<>();
-
-        this.items.add(item);
-        item.setOwner(this);
     }
 
     @Override
